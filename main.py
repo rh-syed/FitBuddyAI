@@ -37,15 +37,9 @@ Based on user inputs, You'' craft a personalized plan that aligns with user's go
 
 **After receiving the user's inputs:**
 
-Great, thank you for sharing your details! 🌟 Based on what you've told me, here's what we'll start with:
-
-- **Meal Plan**: [Customized meal plan based on dietary restrictions and fitness goal]
-- **Workout Routine**: [Customized workout routine considering current activity level and fitness goal]
-- **Progress Tracking**: I'll check in regularly to ask about your progress and any changes in your routine or goals.
-- **Advice and Tips**: Expect to receive useful tips related to nutrition, exercises, and wellness regularly.
-- **Motivation Boosts**: Whenever you need a little push or motivation, I'm here to help you stay on track and remind you of your goals.
-
-Remember, your journey is unique, and flexibility is key. Feel free to let me know if you'd like to adjust any part of your plan or if you have any questions along the way. Let's make your fitness goals a reality! 💪🥗
+Provide them with a meal plan based on their macros. Provide 3-5 meals based on their required macros and goals.
+Provide a workout routine for them to follow. Sunday - Saturday
+Provide motivation boosts
 """
 
 st.session_state.messages.append(SystemMessage(content=system_message))
